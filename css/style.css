@@ -1,0 +1,66 @@
+body {
+  background-image: url("http://science-all.com/images/wallpapers/background-pics/background-pics-8.jpg");
+font-family:serif;
+  letter-spacing:.6px;
+}
+
+#randomBtn{
+  margin-left:auto;
+  margin-right:auto;
+  width:10vw;
+}
+#randomlink {
+  color:Grey;
+}
+
+#randomlink:hover{
+  color:yellow;
+}
+
+.rclass {
+  border: 3px solid black;
+  background-color: rgba(70, 70, 50, .5);
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vw;
+  border-radius:5%;
+  font-family:serif;
+}
+
+form {
+  background-color: rgba(70, 70, 50, .5);
+  color: white;
+  width: 25vw;
+  margin-top:5vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15%;
+  padding: 1vh;
+}
+
+#title {
+  color: white;
+  background-color: black;
+  border-radius: 15%;
+  letter-spacing:1px;
+}
+
+#sub {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 25%;
+}
+
+
+a{
+  color:white;
+  text-align:right;
+}
+
+a:hover{
+  color:yellow;
+  text-decoration:none;
+}
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Searcher Final</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!-- random link https://en.wikipedia.org/wiki/Special:Random-->
+
+<body>
+  <main>
+    <div class="container">
+    
+     
+      <div>
+        <!-- Search -->
+        <form id="search_form" style="text-align:center">
+          What would you like to search?<br>
+          <br>
+          <input type="text" id="title" name="Title" placeholder="Search Wikipedia!" required>
+          <input type="submit" id="sub" onsubmit="return validateForm()">
+        <br>
+        </form>
+        <div id="randomBtn">
+          <br>
+         <a href="https://en.wikipedia.org/wiki/Special:Random" id="randomlink">Random Article</a>
+      </div>
+
+      </div>
+
+    </div>
+    <!-- Container-->
+
+    <div class="results" id="result">
+
+
+    </div>
+      
+    </div>
+  </main>
+
+
+</body>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
